@@ -40,4 +40,12 @@
       }
     }
   }
+  &:not([data-content])[data-title] {
+    &::before {
+      font-size: var(--font-size--title, medium);
+      line-height: var(--line-height--title, normal);
+      content: attr(data-title);
+      font-family: var(--font-family--theme);
+    }
+  }
 }
