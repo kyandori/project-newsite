@@ -1,4 +1,4 @@
-@scope (.item--progress) to ([data-scope]) {
+@scope (.component--progress) to ([data-scope]) {
   
   @keyframes progress {
     0% {
