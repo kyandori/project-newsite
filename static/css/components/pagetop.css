@@ -1,4 +1,4 @@
-@scope (.item--pagetop) to ([data-scope]) {
+@scope (.component--pagetop) to ([data-scope]) {
   
   @keyframes pagetop {
     0% {
