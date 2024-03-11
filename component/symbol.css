@@ -1,4 +1,4 @@
-/* symbol */
+/* material-symbols-outlined */
 /* valid custom properties */
 /*
 --color--symbol: ;
@@ -6,7 +6,7 @@
 --font-size--title: ;
 --line-height--title: ;
 */
-.symbol:is(.material-symbols-outlined) {
+.material-symbols-outlined {
   color: var(--color--symbol, var(--color--reverse));
   width: 100%;
   font-size: 0 !important;
