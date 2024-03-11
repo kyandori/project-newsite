@@ -1,6 +1,5 @@
 /* valid custom properties */
 /*
---color--symbol: ;
 --font-size--content: ;
 --font-size--title: ;
 --line-height--title: ;
@@ -10,7 +9,6 @@
   gap: 0 !important;
   align-items: center !important;
   justify-content: center;
-  color: var(--color--symbol, var(--color--reverse));
   font-size: 0 !important;
   
   &[data-content] {
