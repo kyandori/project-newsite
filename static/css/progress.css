@@ -1,10 +1,6 @@
-<div class="item--progress" data-scope="progress" role="none">
-</div>
-*/
 @scope (.item--progress) to ([data-scope]) {
   
   @keyframes progress {
-    
     0% {
       width: 0%;
     }
