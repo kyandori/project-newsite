@@ -6,7 +6,7 @@
     border-radius: 9999px;
     overflow: hidden;
     container-type: inline-size;
-    container-name: color-scheme;
+    container-name: color-mode;
     
     :is(label) {
       position: relative;
