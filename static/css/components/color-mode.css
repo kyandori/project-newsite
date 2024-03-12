@@ -39,6 +39,7 @@
         font-size: 80cqw;
         border-radius: 9999px;
         content: "brightness_7";
+        background-color: blue;
 
         font-variation-settings:
           'FILL' 0,
