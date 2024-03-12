@@ -57,37 +57,29 @@
       }
     }
   }
-
-
-
-
-
-
-
-
-
   
   /* icon-type:vertical */
   @container style(--icon-type: vertical) {
-    & {
-      border-radius: var(--border-radius, 14%) / calc(var(--border-radius, 14%) * var(--aspect-ratio, 1));
-      
-      .symbol:is(.material-symbols-outlined) {
-        &[data-content] {
+    &:has(.symbol[data-content]) {
+      &:has(.symbol[data-title]) {
+        border-radius: var(--border-radius, 14%) / calc(var(--border-radius, 14%) * var(--aspect-ratio, 1));
+
+        .symbol {
           --font-size--content: 56cqw;
+          --font-size--title: 14cqw;
+          --line-height--title: normal;
           
           flex-direction: column;
           aspect-ratio: var(--aspect-ratio, 1);
           border-radius: var(--border-radius, 14%) / calc(var(--border-radius, 14%) * var(--aspect-ratio, 1));
-          
-          &[data-title] {
-            --font-size--title: 14cqw;
-            --line-height--title: normal;
-          }
         }
       }
     }
   }
+
+
+
+  
   /* icon-style:outline */
   @container style(--icon-style: outline) {
     & {
