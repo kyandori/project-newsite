@@ -20,6 +20,7 @@
     
     .symbol {
       color: var(--color--icon, var(--color--reverse));
+      border: 2.5cqw solid transparent;
     }
     
     &:has(.symbol[data-content]) {
@@ -80,18 +81,16 @@
   /* icon-style:outline */
   @container style(--icon-style: outline) {
     & {
-      .symbol:is(.material-symbols-outlined) {
+      .symbol {
         color: var(--color--icon, var(--color--accent));
         border: 2.5cqw solid var(--color--icon, var(--color--accent));
         background-color: transparent;
       }
     }
   }
-
   
-
   
-
+  
 
   
   /* icon-style:tag */
