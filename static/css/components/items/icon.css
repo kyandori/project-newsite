@@ -89,20 +89,22 @@
     }
   }
   
-  
-  
-
-  
   /* icon-style:tag */
   @container style(--icon-style: tag) {
     & {
-      .symbol:is(.material-symbols-outlined) {
+      .symbol {
         color: var(--color);
-        border: 0;
+        border: 2.5cqw solid var(--color--icon, var(--color--accent));
         background-color: var(--color--icon, var(--color--accent));
       }
     }
   }
+
+
+
+
+
+  
   /* icon-figure:square */
   @container style(--icon-figure: square) {
     & {
