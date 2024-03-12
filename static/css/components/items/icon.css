@@ -99,11 +99,6 @@
       }
     }
   }
-
-
-
-
-
   
   /* icon-figure:square */
   @container style(--icon-figure: square) {
@@ -115,6 +110,7 @@
       }
     }
   }
+  
   /* icon-figure:circle */
   @container style(--icon-figure: circle) {
     & {
