@@ -37,6 +37,7 @@
         justify-content: center;
         aspect-ratio: 1;
         font-size: 80cqw;
+        border-radius: 9999px;
         content: "brightness_7";
 
         font-variation-settings:
