@@ -10,7 +10,13 @@
   gap: 0 !important;
   align-items: center !important;
   justify-content: center;
-
+  overflow: hidden;
+  
+  &::before,
+  &::after {
+    overflow: hidden;
+  }
+  
   &:is(.symbol) {
     color: var(--color--symbol, var(--color--reverse));
     width: 100%;
