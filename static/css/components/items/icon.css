@@ -76,9 +76,6 @@
       }
     }
   }
-
-
-
   
   /* icon-style:outline */
   @container style(--icon-style: outline) {
@@ -90,6 +87,13 @@
       }
     }
   }
+
+  
+
+  
+
+
+  
   /* icon-style:tag */
   @container style(--icon-style: tag) {
     & {
