@@ -33,6 +33,8 @@
       .material-symbols-outlined {
         font-size: 0;
         height: 1.625rem;
+
+        background-color: green;
       }
       
       .material-symbols-outlined::before {
