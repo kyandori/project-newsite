@@ -12,9 +12,9 @@
   
   :scope {
     /*align-self: flex-start;*/
+    display: inline-block;
     overflow: hidden;
     container-name: check;
-    display: inline-block;
     
     :is(label) {
       display: flex;
