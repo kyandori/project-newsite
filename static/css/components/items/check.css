@@ -14,9 +14,9 @@
     /*align-self: flex-start;*/
     display: inline-block;
     overflow: hidden;
-    container-type: size;
+    container-type: inline-size;
     container-name: check;
-    height: 1.4rem;
+    height: 10px;
     
     :is(label) {
       display: flex;
