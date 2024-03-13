@@ -15,11 +15,13 @@
     display: inline-block;
     overflow: hidden;
     container-name: check;
+    height: 1.6rem;
     
     :is(label) {
       display: flex;
       align-items: center;
       position: relative;
+      height: 100%;
       cursor: pointer;
       
       :is(input) {
@@ -32,7 +34,7 @@
       
       .material-symbols-outlined {
         font-size: 0;
-        height: 1.25rem;
+        height: 100%;
 
         background-color: green;
       }
@@ -42,12 +44,12 @@
         align-items: center;
         justify-content: center;
         content: "radio_button_unchecked";
-        width: 1.25rem;
-        height: 1.25rem;
-        font-size: 1.25rem;
+        width: 87.5cqh;
+        height: 87.5cqh;
+        font-size: 87.5cqh;
         color: rgba(var(--color-code--reverse), 0.375);
         /*border: 0.1rem solid transparent;*/
-        border: 0.1rem solid orange;
+        border: 6.25cqh solid orange;
         border-radius: 9999px;
         
         background-color: red;
