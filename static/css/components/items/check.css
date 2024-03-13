@@ -63,9 +63,9 @@
       }
       
       :is(span:not(.material-symbols-outlined)) {
-        font-size: 1rem;
-        line-height: 1.25rem;
-        padding: 0 0.25rem;
+        font-size: 6.4cqh;
+        /*line-height: 1.25rem;*/
+        padding: 0 10cqh;
         
         background-color: blue;
         
