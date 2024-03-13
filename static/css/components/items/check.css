@@ -45,7 +45,8 @@
         content: "radio_button_unchecked";
         font-size: 1.225rem;
         color: rgba(var(--color-code--reverse), 0.375);
-        border: 0.1rem solid transparent;
+        /*border: 0.1rem solid transparent;*/
+        border: 0.1rem solid orange;
         border-radius: 9999px;
         
         background-color: red;
