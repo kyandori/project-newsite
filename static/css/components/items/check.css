@@ -15,7 +15,7 @@
     display: inline-block;
     overflow: hidden;
     container-name: check;
-    height: 1.4rem;
+    height: 14px;
     
     :is(label) {
       display: flex;
