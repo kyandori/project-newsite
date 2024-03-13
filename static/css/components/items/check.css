@@ -31,14 +31,15 @@
       }
       
       .material-symbols-outlined {
-        align-self: flex-start;
         height: 1.425rem;
       }
       
       .material-symbols-outlined::before {
+        align-self: flex-start;
         display: inline-flex;
         align-items: center;
         justify-content: center;
+        height: 1.225rem:
         aspect-ratio: 1;
         content: "radio_button_unchecked";
         font-size: 1.225rem;
