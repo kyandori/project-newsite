@@ -44,9 +44,9 @@
         align-items: center;
         justify-content: center;
         content: "radio_button_unchecked";
-        width: 12.25rem;
-        height: 12.25rem;
-        font-size: 12.25rem;
+        width: 1.225rem;
+        height: 1.225rem;
+        font-size: 1.225rem;
         color: rgba(var(--color-code--reverse), 0.375);
         /*border: 0.1rem solid transparent;*/
         border: 0.1rem solid orange;
