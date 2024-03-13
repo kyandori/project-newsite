@@ -32,7 +32,7 @@
       
       .material-symbols-outlined {
         font-size: 0;
-        height: 1.425rem;
+        height: 1.625rem;
       }
       
       .material-symbols-outlined::before {
@@ -40,7 +40,6 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        height: 1.225rem;
         aspect-ratio: 1;
         content: "radio_button_unchecked";
         font-size: 1.225rem;
@@ -60,7 +59,7 @@
       
       :is(span:not(.material-symbols-outlined)) {
         font-size: 1rem;
-        line-height: 1.425rem;
+        line-height: 1.625rem;
         padding: 0 0.25rem;
         
         background-color: blue;
