@@ -30,9 +30,7 @@
       
       .material-symbols-outlined {
         font-size: 0;
-        height: 100cqh;
-        
-        background-color: green;
+        height: 100%;
       }
       
       .material-symbols-outlined::before {
