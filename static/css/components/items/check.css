@@ -12,7 +12,7 @@
   
   :scope {
     /*align-self: flex-start;*/
-    display: inline-flex;
+    display: inline-block;
     container-name: check;
     min-width: 6rem;
     height: 2.5rem;
