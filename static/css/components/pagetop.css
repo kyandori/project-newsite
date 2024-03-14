@@ -31,6 +31,7 @@
     animation-timeline: scroll(root);
     
     :is(a) {
+      display: flex;
       width: 100%;
       height: 100%;
       border-radius: 9cqw;
@@ -41,6 +42,8 @@
         flex-direction: column;
         width: 100%;
         color: var(--color--reverse);
+
+        background-color:blue;
       }
       
       .material-symbols-outlined::before {
@@ -51,6 +54,8 @@
         height: 27cqw;
         font-size: 64cqw;
         content: "expand_less";
+
+        background-color:red;
         
         font-variation-settings:
           'FILL' 0,
@@ -63,6 +68,8 @@
         font-size: 14cqw;
         line-height: 24cqw;
         content: "ページトップ";
+
+        background-color:green;
       }
       
       /* hover, focus */
