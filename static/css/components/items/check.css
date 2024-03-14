@@ -16,7 +16,6 @@
     overflow: hidden;
     container-type: size;
     container-name: check;
-    width: 100%;
     height: 2.5rem;
     
     :is(label) {
@@ -46,9 +45,9 @@
         align-items: center;
         justify-content: center;
         content: "radio_button_unchecked";
-        width: 80cqh;
-        height: 80cqh;
-        font-size: 80cqh;
+        height: 80%;
+        aspect-ratio: 1;
+        font-size: 80%;
         color: rgba(var(--color-code--reverse), 0.375);
         /*border: 6.4cqh solid transparent;*/
         border: 6.4cqh solid orange;
