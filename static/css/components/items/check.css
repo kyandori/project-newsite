@@ -13,8 +13,6 @@
   :scope {
     /*align-self: flex-start;*/
     display: inline-block;
-    overflow: hidden;
-    container-type: size;
     container-name: check;
     min-width: 6rem;
     height: 2.5rem;
