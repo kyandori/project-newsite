@@ -14,6 +14,7 @@
   
   &::before,
   &::after {
+    display: flex;
     overflow: hidden;
   }
   
@@ -44,6 +45,7 @@
         &::after,
         &[data-content-position="before"]::after,
         &[data-content-position="after"]::before {
+          display: flex;
           font-size: var(--font-size--title, medium);
           line-height: var(--line-height--title, normal);
           content: attr(data-title);
