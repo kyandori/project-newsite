@@ -60,7 +60,6 @@
         background-color: blue;
         
         user-select: none;
-        
         &::selection,
         &::-moz-selection {
           background:none;
