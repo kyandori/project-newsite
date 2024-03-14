@@ -38,12 +38,12 @@
         align-items: center;
         justify-content: center;
         content: "radio_button_unchecked";
-        width: 80cqh;
-        height: 80cqh;
-        font-size: 80cqh;
+        width: 2rem;
+        height: 2rem;
+        font-size: 2rem;
         color: rgba(var(--color-code--reverse), 0.375);
-        /*border: 6.4cqh solid transparent;*/
-        border: 6.4cqh solid orange;
+        /*border: 0.16rem solid transparent;*/
+        border: 0.16rem solid orange;
         border-radius: 9999px;
         
         background-color: red;
@@ -56,9 +56,9 @@
       }
       
       :is(span:not(.material-symbols-outlined)) {
-        font-size: 64cqh;
+        font-size: 1.6rem;
         /*line-height: 1.25rem;*/
-        padding: 0 16cqh;
+        padding: 0 0.4rem;
         
         background-color: blue;
         
