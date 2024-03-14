@@ -28,7 +28,6 @@
       &[data-content-position="after"]::after {
         font-size: var(--font-size--content, medium);
         display: flex !important;
-        align-self: flex-start !important;
         align-items: center !important;
         justify-content: center !important;
         aspect-ratio: 1 !important;
@@ -57,7 +56,6 @@
       &[data-title] {
         &::before {
           display: flex;
-          align-self: flex-start;
           font-size: var(--font-size--title, medium);
           line-height: var(--line-height--title, normal);
           content: attr(data-title);
