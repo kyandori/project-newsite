@@ -29,7 +29,8 @@
     z-index: 2;
     animation: linear pagetop;
     animation-timeline: scroll(root);
-    
+
+    background-color:orange;
     :is(a) {
       display: flex;
       width: 100%;
@@ -37,6 +38,8 @@
       border-radius: 9cqw;
       background-color: rgba(var(--color-code--reverse), 0.15);
       cursor: pointer;
+
+      background-color:aqua;
       
       .material-symbols-outlined {
         flex-direction: column;
