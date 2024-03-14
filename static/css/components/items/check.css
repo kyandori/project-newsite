@@ -27,11 +27,11 @@
       cursor: pointer;
       
       :is(input) {
-      position: absolute;
-      appearance: none;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      -o-appearance: none;
+        position: absolute;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
       }
       
       .material-symbols-outlined {
