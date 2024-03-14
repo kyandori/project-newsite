@@ -12,15 +12,12 @@
   
   :scope {
     /*align-self: flex-start;*/
-    display: inline-block;
+    display: inline-flex;
     container-name: check;
     height: 2.5rem;
     
     :is(label) {
-      display: flex;
-      align-items: center;
       position: relative;
-      height: 100cqh;
       cursor: pointer;
       
       :is(input) {
