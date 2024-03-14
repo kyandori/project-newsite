@@ -14,7 +14,9 @@
     /*align-self: flex-start;*/
     display: inline-block;
     overflow: hidden;
+    container-type: size;
     container-name: check;
+    min-with: 6.8rem;
     height: 2.5rem;
     
     :is(label) {
@@ -44,12 +46,12 @@
         align-items: center;
         justify-content: center;
         content: "radio_button_unchecked";
-        height: 80%;
-        aspect-ratio: 1;
-        font-size: 80%;
+        width: 2rem;
+        height: 2rem;
+        font-size: 2rem;
         color: rgba(var(--color-code--reverse), 0.375);
         /*border: 6.4cqh solid transparent;*/
-        border: 6.4% solid orange;
+        border: 0.16rem solid orange;
         border-radius: 9999px;
         
         background-color: red;
