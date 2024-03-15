@@ -33,6 +33,18 @@
       .material-symbols-outlined {
         font-size: 0;
         height: 100%;
+
+        :is(span:not(.material-symbols-outlined)) {
+          font-size: 1.6rem;
+          height: 2rem;
+          padding: 0 0.4rem;
+          
+          user-select: none;
+          &::selection,
+          &::-moz-selection {
+            background:none;
+          }
+        }
       }
       
       .material-symbols-outlined::before {
@@ -52,18 +64,6 @@
           'wght' 300,
           'GRAD' 0,
           'opsz' 24;
-      }
-      
-      :is(span:not(.material-symbols-outlined)) {
-        font-size: 1.6rem;
-        height: 2rem;
-        padding: 0 0.4rem;
-        
-        user-select: none;
-        &::selection,
-        &::-moz-selection {
-          background:none;
-        }
       }
     }
   }
