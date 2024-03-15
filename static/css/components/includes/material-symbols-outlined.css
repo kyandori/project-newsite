@@ -21,6 +21,7 @@
   
   &:is(.symbol) {
     display: flex;
+    vertical-align: baseline;
     color: var(--color--symbol, var(--color--reverse));
     width: 100%;
     font-size: 0 !important;
