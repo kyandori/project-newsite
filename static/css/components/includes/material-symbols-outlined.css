@@ -7,6 +7,7 @@
 */
 .material-symbols-outlined {
   display: inline-flex;
+  vertical-align: middle;
   gap: 0;
   align-items: center;
   justify-content: center;
@@ -19,6 +20,8 @@
   }
   
   &:is(.symbol) {
+    display: flex;
+    vertical-align: baseline;
     color: var(--color--symbol, var(--color--reverse));
     width: 100%;
     font-size: 0 !important;
