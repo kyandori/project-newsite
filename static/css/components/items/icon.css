@@ -14,7 +14,6 @@
   :scope {
     /*align-self: flex-start;*/
     width: 100%;
-    overflow: hidden;
     container-type: inline-size;
     container-name: icon;
     
