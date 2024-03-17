@@ -108,30 +108,30 @@
   
   /* icon-figure:square */
   &:is([style*="--icon-figure:square;"], [style*="--icon-figure: square;"]) {
-    border-radius: var(--border-radius, 12%) / var(--border-radius, 12%);
+    border-radius: var(--border-radius, 12%) / var(--border-radius, 12%) !important;
   }
   @container style(--icon-figure: square) {
     & {
-      border-radius: var(--border-radius, 12%) / var(--border-radius, 12%);
+      border-radius: var(--border-radius, 12%) / var(--border-radius, 12%) !important;
       
       .symbol {
         --aspect-ratio: 1 !important;
-        border-radius: var(--border-radius, 12%) / var(--border-radius, 12%);
+        border-radius: var(--border-radius, 12%) / var(--border-radius, 12%) !important;
       }
     }
   }
   
   /* icon-figure:circle */
   &:is([style*="--icon-figure:circle;"], [style*="--icon-figure: circle;"]) {
-    border-radius: 9999px;
+    border-radius: 9999px !important;
   }
   @container style(--icon-figure: circle) {
     & {
-      border-radius: 9999px;
+      border-radius: 9999px !important;
       
       .symbol {
         --aspect-ratio: 1 !important;
-        border-radius: 9999px;
+        border-radius: 9999px !important;
       }
     }
   }
