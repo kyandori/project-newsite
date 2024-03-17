@@ -38,8 +38,11 @@
         width: 100%;
         aspect-ratio: 1;
         font-size: 80cqw;
+        line-height: 1;
         border-radius: 9999px;
         content: "brightness_7";
+        
+        font-variation-settings: 'wght' 300;
       }
       
       /* hover */
