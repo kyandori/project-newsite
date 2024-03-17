@@ -30,12 +30,12 @@
       &::before,
       &[data-content-position="before"]::before,
       &[data-content-position="after"]::after {
-        font-size: var(--font-size--content, medium);
+        font-size: var(--font-size--content, medium) !important;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
         aspect-ratio: 1 !important;
-        content: attr(data-content);
+        content: attr(data-content) !important;
         
         font-variation-settings:
           'FILL' 0,
