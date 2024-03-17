@@ -61,7 +61,7 @@
   /* icon-type:vertical */
   &:has(.symbol[data-content]) {
     &:has(.symbol[data-title]) {
-      &:is([style="--icon-type:vertical;"], [style="--icon-type: vertical;"]) {
+      &:is([style*="--icon-type:vertical;"], [style*="--icon-type: vertical;"]) {
         border-radius: var(--border-radius, 12%) / calc(var(--border-radius, 12%) * var(--aspect-ratio, 1));
       }
     }
