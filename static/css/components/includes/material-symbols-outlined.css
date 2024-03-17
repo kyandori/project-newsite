@@ -54,6 +54,8 @@
           line-height: var(--line-height--title, normal);
           content: attr(data-title);
           font-family: var(--font-family--theme);
+          
+          font-variation-settings: 'wght' 400;
         }
       }
     }
@@ -65,6 +67,8 @@
           line-height: var(--line-height--title, normal);
           content: attr(data-title);
           font-family: var(--font-family--theme);
+          
+          font-variation-settings: 'wght' 400;
         }
       }
     }
