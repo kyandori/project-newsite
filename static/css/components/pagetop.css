@@ -44,7 +44,7 @@
         height: 100%;
         font-size: 0;
         border-radius: 12cqw;
-        color: var(--color);
+        color: rgba(var(--color-code), 0.75);
       }
       
       .material-symbols-outlined::before {
