@@ -19,5 +19,6 @@
     background-color: var(--color--accent);
     animation: linear progress;
     animation-timeline: scroll(root);
+    z-imdex: 2;
   }
 }
