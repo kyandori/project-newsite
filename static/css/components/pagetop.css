@@ -33,7 +33,7 @@
       width: 100%;
       height: 100%;
       border-radius: 12cqw;
-      background-color: rgba(var(--color-code--reverse), 0.15);
+      background-color: rgba(var(--color-code--accnt), 0.75);
       overflow: hidden;
       cursor: pointer;
       
@@ -44,7 +44,7 @@
         height: 100%;
         font-size: 0;
         border-radius: 12cqw;
-        color: var(--color--reverse);
+        color: var(--color);
       }
       
       .material-symbols-outlined::before {
