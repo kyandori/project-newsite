@@ -17,14 +17,13 @@
   :scope {
     container-type: inline-size;
     container-name: pagetop;
-    width: 10dvw;
-    min-width: 56px;
-    max-width: 84px;
+    width: 4rem;
+    min-width: 40px;
     aspect-ratio: 1;
     border-radius: 12%;
     position: fixed;
     right: 0.4rem;
-    bottom: 0.8rem;
+    bottom: 1.6rem;
     z-index: 999;
     animation: linear pagetop;
     animation-timeline: scroll(root);
