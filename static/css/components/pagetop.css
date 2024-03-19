@@ -24,7 +24,7 @@
     border-radius: 12%;
     position: fixed;
     right: 0.4rem;
-    bottom: 1.6rem;
+    bottom: 0.8rem;
     z-index: 999;
     animation: linear pagetop;
     animation-timeline: scroll(root);
