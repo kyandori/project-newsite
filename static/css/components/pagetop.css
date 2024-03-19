@@ -20,8 +20,8 @@
     width: 10dvw;
     min-width: 56px;
     max-width: 84px;
-    aspect-ratio: 4 / 3;
-    border-radius: 9% / 12%;
+    aspect-ratio: 1;
+    border-radius: 12%;
     position: fixed;
     right: 0.4rem;
     bottom: 0.8rem;
@@ -33,24 +33,27 @@
       display: flex;
       width: 100%;
       height: 100%;
-      border-radius: 9cqw;
+      border-radius: 12cqw;
       background-color: rgba(var(--color-code--reverse), 0.15);
       overflow: hidden;
       cursor: pointer;
       
       .material-symbols-outlined {
-        flex-direction: column;
+        display: flex;
+        vertical-align: baseline;
         width: 100%;
-        border-radius: 9cqw;
+        height: 100%;
+        font-size: 0;
+        border-radius: 12cqw;
         color: var(--color--reverse);
       }
       
       .material-symbols-outlined::before {
         align-items: center;
         justify-content: center;
-        width: 36cqw;
-        height: 27cqw;
-        font-size: 64cqw;
+        width: 50cqw;
+        height: 50cqw;
+        font-size: 50cqw;
         content: "arrow_circle_up";
       }
       
