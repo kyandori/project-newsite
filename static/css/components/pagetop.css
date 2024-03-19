@@ -8,9 +8,12 @@
     15% {
       display: none;
     }
-    
-    100% {
+
+    99% {
       display: block;
+    }
+    100% {
+      display: none;
     }
   }
   
