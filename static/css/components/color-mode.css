@@ -16,11 +16,11 @@
       cursor: pointer;
       
       :is(input) {
-      position: absolute;
-      appearance: none;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      -o-appearance: none;
+        position: absolute;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
       }
 
       .material-symbols-outlined {
@@ -29,16 +29,16 @@
         border: 6cqw solid orange;
         border-radius: 9999px;
         color: orange;
+        font-size: 0;
       }
       
       .material-symbols-outlined::before {
+        align-self: flex-start;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 100%;
         aspect-ratio: 1;
         font-size: 80cqw;
-        line-height: 1;
         border-radius: 9999px;
         content: "brightness_7";
         
