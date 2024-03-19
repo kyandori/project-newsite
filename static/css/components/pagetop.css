@@ -51,9 +51,9 @@
       .material-symbols-outlined::before {
         align-items: center;
         justify-content: center;
-        width: 50cqw;
-        height: 50cqw;
-        font-size: 50cqw;
+        width: 75cqw;
+        height: 75cqw;
+        font-size: 75cqw;
         content: "arrow_circle_up";
       }
       
