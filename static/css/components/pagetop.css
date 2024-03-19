@@ -24,9 +24,9 @@
     height: 4rem;
     min-width: 40px;
     min-height: 40px;
-    border-radius: 12%;
+    border-radius: 12% 0 0 12%;
     position: fixed;
-    right: 0.4rem;
+    right: 0rem;
     bottom: 0.8rem;
     z-index: 999;
     animation: linear pagetop;
@@ -36,7 +36,7 @@
       display: flex;
       width: 100%;
       height: 100%;
-      border-radius: 12cqw;
+      border-radius: 12cqw 0 0 12cqw;
       background-color: rgba(var(--color-code--accent), 0.75);
       overflow: hidden;
       cursor: pointer;
@@ -47,7 +47,7 @@
         width: 100%;
         height: 100%;
         font-size: 0;
-        border-radius: 12cqw;
+        border-radius: 12cqw 0 0 12cqw;
         color: rgba(var(--color-code), 0.75);
         font-variation-settings:'wght' 400;
       }
@@ -66,7 +66,7 @@
         outline: none;
         
         .material-symbols-outlined {
-          font-variation-settings:'wght' 600;
+          font-variation-settings:'wght' 500;
         }
       }
     }
