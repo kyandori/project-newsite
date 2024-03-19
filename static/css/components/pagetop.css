@@ -62,8 +62,8 @@
       &:is(:hover, :focus) {
         outline: none;
         
-        .material-symbols-outlined {
-          font-variation-settings:'wght' 500;
+        .material-symbols-outlined::before {
+          font-variation-settings: 'FILL' 1;
         }
       }
     }
