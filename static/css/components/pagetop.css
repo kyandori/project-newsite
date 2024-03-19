@@ -45,6 +45,7 @@
         font-size: 0;
         border-radius: 12cqw;
         color: rgba(var(--color-code), 0.75);
+        font-variation-settings:'wght' 400;
       }
       
       .material-symbols-outlined::before {
@@ -58,8 +59,11 @@
       
       /* hover, focus */
       &:is(:hover, :focus) {
-        background-color: rgba(var(--color-code--reverse), 0.225);
         outline: none;
+        
+        .material-symbols-outlined {
+          font-variation-settings:'wght' 500;
+        }
       }
     }
   }
