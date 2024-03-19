@@ -12,6 +12,7 @@
     99% {
       display: block;
     }
+    
     100% {
       display: none;
     }
@@ -34,18 +35,15 @@
     
     :is(a) {
       display: flex;
-      width: 100%;
-      height: 100%;
+      width: 100cqw;
+      height: 100cqw;
       border-radius: 12cqw 0 0 12cqw;
       background-color: rgba(var(--color-code--accent), 0.75);
-      overflow: hidden;
       cursor: pointer;
       
       .material-symbols-outlined {
-        display: flex;
-        vertical-align: baseline;
-        width: 100%;
-        height: 100%;
+        width: 100cqw;
+        height: 100cqw;
         font-size: 0;
         border-radius: 12cqw 0 0 12cqw;
         color: rgba(var(--color-code), 0.75);
@@ -53,8 +51,6 @@
       }
       
       .material-symbols-outlined::before {
-        align-items: center;
-        justify-content: center;
         width: 80cqw;
         height: 80cqw;
         font-size: 80cqw;
