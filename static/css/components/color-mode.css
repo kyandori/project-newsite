@@ -33,7 +33,6 @@
       }
       
       .material-symbols-outlined::before {
-        align-self: flex-start;
         display: flex;
         align-items: center;
         justify-content: center;
