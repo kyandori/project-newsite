@@ -34,6 +34,7 @@
       &::before,
       &[data-content-position="before"]::before,
       &[data-content-position="after"]::after {
+        align-self: flex-start !important;
         font-size: var(--font-size--content, medium) !important;
         display: flex !important;
         align-items: center !important;
