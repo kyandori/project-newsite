@@ -52,9 +52,9 @@
       .material-symbols-outlined::before {
         align-items: center;
         justify-content: center;
-        width: 75cqw;
-        height: 75cqw;
-        font-size: 75cqw;
+        width: 80cqw;
+        height: 80cqw;
+        font-size: 80cqw;
         content: "arrow_circle_up";
       }
       
