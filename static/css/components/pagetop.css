@@ -23,9 +23,9 @@
     aspect-ratio: 4 / 3;
     border-radius: 9% / 12%;
     position: fixed;
-    right: 1.5dvw;
-    bottom: 2.5dvw;
-    z-index: 2;
+    right: 0.4rem;
+    bottom: 0.8rem;
+    z-index: 999;
     animation: linear pagetop;
     animation-timeline: scroll(root);
     
@@ -52,12 +52,6 @@
         height: 27cqw;
         font-size: 64cqw;
         content: "arrow_circle_up";
-      }
-      
-      .material-symbols-outlined::after {
-        font-size: 14cqw;
-        line-height: 24cqw;
-        content: "ページトップ";
       }
       
       /* hover, focus */
