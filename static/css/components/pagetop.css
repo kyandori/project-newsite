@@ -2,11 +2,13 @@
   
   @keyframes pagetop {
     0% {
-      display: none;
+      /*display: none;*/
+      visibility: hidden;
     }
     
     15% {
-      display: none;
+      /*display: none;*/
+      visibility: hidden;
     }
 
     99% {
@@ -14,7 +16,8 @@
     }
     
     100% {
-      display: none;
+      /*display: none;*/
+      visibility: hidden;
     }
   }
   
